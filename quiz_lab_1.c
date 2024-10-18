@@ -3,20 +3,30 @@
 * EXPRESIONES DIÁDICAS 1
 *
 **********************/
-#include &lt;stdio.h&gt;
+
+#include <stdio.h>
+
 int main() {
-int x,y;
-for (;;) {
-printf(&quot;Introduzca el valor de x = &quot;);
-scanf(&quot;%d&quot;,&amp;x);
-printf(&quot;Introduzca el valor de y = &quot;);
-scanf(&quot;%d&quot;,&amp;y);
-printf(&quot;\n%d || %d = %d\n&quot;,x,y,x||y);
+
+    int x,y;
+
+    for (;;) {
+
+        printf("Introduzca el valor de x = ");
+        scanf("%d",&x);
+        printf("Introduzca el valor de y = ");
+        scanf("%d",&y); 
+
+        printf("\n%d + %d = %d\n\n",x,y,x+y);
+
+    }
+
+    return 0;
+
 }
-return 0;
-}
+
 /*
 *
-* printf(&quot;\n%d + %d = %d\n\n&quot;,x,y,x+y);
+* printf("\n%d || %d = %d\n",x,y,x||y);
 *
 */
